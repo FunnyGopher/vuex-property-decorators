@@ -1,0 +1,17 @@
+{
+  "include": [
+    "./src/*.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "dist/esm",
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
